@@ -16,6 +16,8 @@ main {
     margin-right: auto;
 }
 
+/* - - - BARRE DE NAVIGATION - - - */
+
 nav {
     position: fixed;
     width: 100%;
@@ -26,7 +28,7 @@ nav {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
-.header_text{
+.nav_text{
     display: flex;
     flex-direction: row; 
     width: 75%;
@@ -41,6 +43,10 @@ nav h1 {
     font-size: xx-large;
 }
 
+nav h1:hover {
+    cursor: pointer;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -48,12 +54,17 @@ nav ul {
 }
 
 nav ul li {
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 nav li {
     list-style: none;
 }
+
+.nav_menu li:hover {
+    cursor: pointer;
+}
+
 
 .nav_components {
     color: whitesmoke;
@@ -61,6 +72,149 @@ nav li {
     padding: 10px;
 }
 
-.title_container {
+.nav_components:hover {
+    background-color: rgb(51, 16, 84);
+} 
+
+/* - - - HEADER - - - */
+
+header {
+    height: 120vh; 
     background-image: url('/assets/imgs/header_img.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.title_container {
+    font-size: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 25%;
 }
+
+.gradient_transition {
+    height: 55vh;
+    background: linear-gradient(rgb(69, 83, 123), 5%, white);
+}
+
+.works_button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color: rgb(105, 90, 166);
+    color: white;
+    padding: 13px;
+    border: transparent;
+    border-radius: 25px;
+}
+
+.works_button:hover {
+    cursor: pointer;
+}
+
+/* - - - ABOUT SECTION - - - */
+
+.about_container {
+    margin: 50px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about_container img {
+    width: 400px;
+    margin-right: 20px;
+}
+
+
+.about_text h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about_text h1 {
+    color: rgb(105, 90, 166);
+}
+
+.about_text p {
+    font-size: larger;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.about_text button {
+    color: rgb(105, 90, 166);
+    font-size: medium;
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.about_text button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(105, 90, 166);
+}
+
+/* - - - SERVICE CONTAINER - - - */
+
+.service_container_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_container h1 {
+    color: rgb(105, 90, 166);
+    font-size: 2.8rem;
+}
+
+.service_container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service_container_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.service_container_cards section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_container section {
+    border: solid 1px rgb(179, 177, 177);
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.service_container section img {
+    width: 65px;
+    margin-bottom: 15px;
+}
+
+.service_container section p {
+   display: none;
+}
+
+.card_container_img_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.service_container section h3 {
+    color: blueviolet;
+}
+
