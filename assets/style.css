@@ -185,36 +185,72 @@ header {
     justify-content: center;
 }
 
+
 .service_container_cards section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5px;
 }
+
+
 
 .service_container section {
     border: solid 1px rgb(179, 177, 177);
     margin-top: 10px;
     margin-right: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .service_container section img {
     width: 65px;
     margin-bottom: 15px;
+    transition: 0.5s;
 }
 
-.service_container section p {
-   display: none;
+
+.card_paragraph_container {
+   opacity: 0;
+   font-size: 18px;
+   text-align: center;
+   transition: ease-out 0.5s;
 }
 
-.card_container_img_text {
+.service_card_container_img_text:hover .card_paragraph_container{
+    transform: translateY(6px);
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 1;
+    color: black;
+}
+
+
+.service_card_container_img_text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 18px;
+    transition: 0.5s;
 }
 
+
+.service_card_container_img_text:hover {
+    transform: translateY(-25px); 
+}
+
+.service_card_container_img_text:hover .service_container_img {
+    margin-top: 8px;
+    width: 50px;
+}
+
+
 .service_container section h3 {
+    font-size: 1.3em;
     color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    
 }
 
