@@ -163,6 +163,10 @@ header {
 
 /* - - - SERVICE CONTAINER - - - */
 
+.service_container {
+    margin-bottom: 8em;
+}
+
 .service_container_title {
     display: flex;
     flex-direction: column;
@@ -194,7 +198,6 @@ header {
 }
 
 
-
 .service_container section {
     border: solid 1px rgb(179, 177, 177);
     margin-top: 10px;
@@ -207,7 +210,6 @@ header {
     margin-bottom: 15px;
     transition: 0.5s;
 }
-
 
 .card_paragraph_container {
    opacity: 0;
@@ -224,7 +226,6 @@ header {
     color: black;
 }
 
-
 .service_card_container_img_text {
     display: flex;
     flex-direction: column;
@@ -235,7 +236,6 @@ header {
     transition: 0.5s;
 }
 
-
 .service_card_container_img_text:hover {
     transform: translateY(-25px); 
 }
@@ -245,12 +245,89 @@ header {
     width: 50px;
 }
 
-
 .service_container section h3 {
     font-size: 1.3em;
     color: blueviolet;
     margin-top: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 8px;    
+}
+
+/* - - - PORTFOLIO CONTAINER - - - */
+
+.portfolio_container_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.2em;
+}
+
+.portfolio_container_title h2 {
+    color: rgb(105, 90, 166);
+    font-size: 2.8rem;
+}
+
+.webdesign_global_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.webdesign_global_container p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.webdesign_photo_container {
+    background-size: cover;
+    height: 22rem;
+    width: 35rem;
+    margin-right: 30px;
+    }
+
+.webdesign_photo_container:hover .webdesign_description {
+    opacity: 0.8;
+    cursor: pointer;   
+    background-color: grey;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    transform: rotate(360deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
     
 }
 
+.webdesign_description {
+    opacity: 0;
+    transition-duration: 1s;
+    color: rgb(70, 57, 124);
+    height: 100%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.webdesign_description h2 {
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.webdesign_description h3 {
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+/*  */
