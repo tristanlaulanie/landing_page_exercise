@@ -354,7 +354,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 8em;
+    margin-bottom: 5em;
 }
 
 .pricing_container img {
@@ -419,3 +419,47 @@ header {
 .premium_pricing_container {
     border: solid rgb(195, 192, 192) 1px;
 }
+
+/* - - - HIRE CONTAINER - - - */
+
+.hire_container {
+    border-radius: 10px;
+    padding-top: 2.3em;
+    padding-bottom: 2.3em;
+}
+
+.hire_container_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hire_container_elements button {
+    height: 100%;
+    width: auto;
+    border: solid transparent;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Acme', sans-serif; 
+    letter-spacing: 1px;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.4s;
+ }
+
+ .hire_container_elements button:hover {
+    cursor: pointer;
+    background-color: rgb(219, 213, 213);
+ }
+
+.hire_container_elements_text {
+    color: white;
+  }
+
+  .hire_container_elements_text h2 {
+    margin-bottom: 10px;
+  }
