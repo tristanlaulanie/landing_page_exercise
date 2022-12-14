@@ -426,6 +426,7 @@ header {
     border-radius: 10px;
     padding-top: 2.3em;
     padding-bottom: 2.3em;
+    margin-bottom: 2em;
 }
 
 .hire_container_elements {
@@ -463,3 +464,82 @@ header {
   .hire_container_elements_text h2 {
     margin-bottom: 10px;
   }
+  
+/* - - - TESTIMONIAL CONTAINER - - - */
+
+.testimonial_container {
+    margin-bottom: 12em;
+}
+
+.testimonial_container_titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.testimonial_container_titles h2 {
+    font-size: 2.8em;
+    color:rgb(105, 90, 166);
+}
+
+.man_testimonial_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.man_testimonial_img img {
+    height: auto;
+    width: 90%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.man_testimonal_container_text h3 {
+    color: rgb(105, 90, 166);
+    font-size: 1.3em;
+}
+
+.woman_testimonial_container {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.woman_testimonial_img img {
+    height: auto;
+    width: 90%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.woman_testimonal_container_text h3 {
+    color: rgb(105, 90, 166);
+    font-size: 1.3em;
+}
+
+.both_testimonials_container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+
+}
+
+.testimonials {
+    border: solid 1px rgb(209, 208, 208);
+    border-radius: 5px;
+    height: fit-content;
+    margin-right: 50px;
+    padding: 20px;   
+
+}
+
+
+
