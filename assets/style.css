@@ -563,15 +563,14 @@ header {
 }
 
 .second_blog_article {
-    margin-bottom: 12em;
+  margin-bottom: 12em;
 }
 
 .article_strong {
   margin-bottom: 2px;
 }
 
-.blog_article img{
-
+.blog_article img {
   height: 20em;
   width: 20em;
 }
@@ -584,7 +583,7 @@ header {
 }
 
 .blog_article_text h3 {
-    color: rgb(105, 90, 166);
+  color: rgb(105, 90, 166);
 }
 
 .article_text div {
@@ -613,35 +612,34 @@ header {
 /* - - - CONTACT CONTAINER - - - */
 
 .contact_container_title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact_container div h1 {
-    font-size: 2.8em;
-    color: rgb(105, 90, 166);
+  font-size: 2.8em;
+  color: rgb(105, 90, 166);
 }
 
 form input {
-    /* height: 3em;
+  /* height: 3em;
     width: 50em; */
 }
 
 .test_flex {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
-
 
 .name_email {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 16px;
-  }
+}
 
 .name_email_input {
   height: 2.5em;
@@ -650,8 +648,7 @@ form input {
   margin-right: 8px;
   border-radius: 3px;
   background-color: rgb(251, 250, 250);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .comments_area {
@@ -663,6 +660,8 @@ form input {
 .comments_area textarea {
   width: 43rem;
   height: 12em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
   background-color: rgb(251, 250, 250);
 }
 
@@ -677,7 +676,7 @@ form input {
   transition: 0.3s;
 }
 
-.form_button:hover{
+.form_button:hover {
   color: white;
   background-color: rgb(105, 90, 166);
 }
@@ -687,3 +686,44 @@ form input {
 footer p {
   margin-bottom: 20px;
 }
+
+.text_icons_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: solid 1px rgb(171, 167, 167);
+  padding-top: 30px;
+}
+
+.regular_icon {
+  padding: 10px;
+  border: solid 2px grey;
+  border-radius: 50%;
+}
+
+.icon_facebook {
+  height: auto;
+  width: auto;
+  padding: 10px 13.5px 10px 13.5px;
+  border: solid 2px grey;
+  border-radius: 50%;
+}
+
+.regular_icon,
+.icon_facebook {
+  margin-bottom: 20px;
+}
+
+.regular_icon:hover {
+  color: white;
+  background-color: rgb(105, 90, 166);
+  border: solid 2px rgb(105, 90, 166);
+}
+
+.icon_facebook:hover {
+  color: white;
+  background-color: rgb(105, 90, 166);
+  border: solid 2px rgb(105, 90, 166);
+}
+
+/* - - - END PAGE - - - */
