@@ -337,27 +337,36 @@
         </div>
     </div>
     <div class="contact_container">
-        <p>
+        <div class="contact_container_title">
             <h2>How can you communicate?</h2>
             <h1>Contact Me</h1>
-        </p> <br>
-        <form action="/action_page.php">
-            <label for="Name"></label><br>
-            <input type="text" id="Name" name="Name" value="Your Name"><br>
-            <label for="Email"></label><br>
-            <input type="text" id="Email" name="Email" value="Enter Email"><br>
-            <label for="Email"></label><br>
-            <input type="text" id="Writesomething" name="Writesomething" value="Write Something">
-            <br>
-            <br>
-            <br>
-            <input type="submit" value="Send Message">
-            <br>
-            <br>
-        </form> 
+        </div> 
+        <form class="test_flex" action="">
+                        <div class="name_email">
+                            <label for="Name"><!--Name--></label>
+                            <input class="name_email_input" type="text" id="Name" name="Name"   placeholder="Your Name">
+                            <label for="Email"><!--Email--></label>
+                            <input class="name_email_input" type="text" id="Email" name="Email"   placeholder="Enter Email">
+                        </div>
+                        <div class="comments_area">
+                            <label for="Writesomething"><!--Comments--></label><br>
+                            <textarea id="Writesomething" name="Writesomething" placeholder="Write  Something">
+                            </textarea>
+                        </div>
+                        <input class="form_button" type="submit" value="Send Message">
+        </form>
     </div>
     <footer>
-        <p>Copyright 2022 © Tristan NeoCode</p>
+        <p>
+        <div class="text_icons_footer">
+        <div class="text_footer">  
+        Copyright 2022 © Tristan NeoCode
+        </div>
+        <div class="medias_icons_footer">
+            <i class="fa-brands fa-facebook-f"></i>
+        </div> 
+        </div>
+        </p>
     </footer>
 </main>
 </body>
